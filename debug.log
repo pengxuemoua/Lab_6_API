@@ -1,0 +1,148 @@
+2023-09-30 18:54:27,897 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2023-09-30 18:54:28,025 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/forecast?q=minneapolis%2Cus&units=imperial&appid=key HTTP/1.1" 401 108
+2023-09-30 18:54:28,026 - root - ERROR - 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/forecast?q=minneapolis%2Cus&units=imperial&appid=key
+Traceback (most recent call last):
+  File "c:\Users\KiaYa\Desktop\Lab_6_API\weather_forecast.py", line 50, in get_forecast_data
+    response.raise_for_status() # raise exception for 400 or 500 errors
+  File "C:\Users\KiaYa\Desktop\Lab_6_API\env\lib\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/forecast?q=minneapolis%2Cus&units=imperial&appid=key
+2023-09-30 18:54:28,029 - root - ERROR - {"cod":401, "message": "Invalid API key. Please see https://openweathermap.org/faq#error401 for more info."}
+Traceback (most recent call last):
+  File "c:\Users\KiaYa\Desktop\Lab_6_API\weather_forecast.py", line 50, in get_forecast_data
+    response.raise_for_status() # raise exception for 400 or 500 errors
+  File "C:\Users\KiaYa\Desktop\Lab_6_API\env\lib\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/forecast?q=minneapolis%2Cus&units=imperial&appid=key
+2023-09-30 18:54:42,403 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2023-09-30 18:54:42,531 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/forecast?q=minneapolis%2Cus&units=imperial&appid=key HTTP/1.1" 401 108
+2023-09-30 18:54:42,531 - root - ERROR - 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/forecast?q=minneapolis%2Cus&units=imperial&appid=key
+Traceback (most recent call last):
+  File "c:\Users\KiaYa\Desktop\Lab_6_API\weather_forecast.py", line 50, in get_forecast_data
+    response.raise_for_status() # raise exception for 400 or 500 errors
+  File "C:\Users\KiaYa\Desktop\Lab_6_API\env\lib\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/forecast?q=minneapolis%2Cus&units=imperial&appid=key
+2023-09-30 18:54:42,531 - root - ERROR - {"cod":401, "message": "Invalid API key. Please see https://openweathermap.org/faq#error401 for more info."}
+Traceback (most recent call last):
+  File "c:\Users\KiaYa\Desktop\Lab_6_API\weather_forecast.py", line 50, in get_forecast_data
+    response.raise_for_status() # raise exception for 400 or 500 errors
+  File "C:\Users\KiaYa\Desktop\Lab_6_API\env\lib\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/forecast?q=minneapolis%2Cus&units=imperial&appid=key
+2023-09-30 19:03:31,092 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2023-09-30 19:03:31,204 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/forecast?q=minneapolis%2Cus&units=imperial&appid=key HTTP/1.1" 401 108
+2023-09-30 19:03:31,205 - root - ERROR - 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/forecast?q=minneapolis%2Cus&units=imperial&appid=key
+Traceback (most recent call last):
+  File "c:\Users\KiaYa\Desktop\Lab_6_API\weather_forecast.py", line 50, in get_forecast_data
+    response.raise_for_status() # raise exception for 400 or 500 errors
+  File "C:\Users\KiaYa\Desktop\Lab_6_API\env\lib\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/forecast?q=minneapolis%2Cus&units=imperial&appid=key
+2023-09-30 19:03:31,206 - root - ERROR - {"cod":401, "message": "Invalid API key. Please see https://openweathermap.org/faq#error401 for more info."}
+Traceback (most recent call last):
+  File "c:\Users\KiaYa\Desktop\Lab_6_API\weather_forecast.py", line 50, in get_forecast_data
+    response.raise_for_status() # raise exception for 400 or 500 errors
+  File "C:\Users\KiaYa\Desktop\Lab_6_API\env\lib\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/forecast?q=minneapolis%2Cus&units=imperial&appid=key
+2023-09-30 19:05:02,605 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2023-09-30 19:05:02,733 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/forecast?q=minneapolis%2Cus&units=imperial&appid=key HTTP/1.1" 401 108
+2023-09-30 19:05:02,733 - root - ERROR - 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/forecast?q=minneapolis%2Cus&units=imperial&appid=key
+Traceback (most recent call last):
+  File "c:\Users\KiaYa\Desktop\Lab_6_API\weather_forecast.py", line 50, in get_forecast_data
+    response.raise_for_status() # raise exception for 400 or 500 errors
+  File "C:\Users\KiaYa\Desktop\Lab_6_API\env\lib\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/forecast?q=minneapolis%2Cus&units=imperial&appid=key
+2023-09-30 19:05:02,735 - root - ERROR - {"cod":401, "message": "Invalid API key. Please see https://openweathermap.org/faq#error401 for more info."}
+Traceback (most recent call last):
+  File "c:\Users\KiaYa\Desktop\Lab_6_API\weather_forecast.py", line 50, in get_forecast_data
+    response.raise_for_status() # raise exception for 400 or 500 errors
+  File "C:\Users\KiaYa\Desktop\Lab_6_API\env\lib\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/forecast?q=minneapolis%2Cus&units=imperial&appid=key
+2023-09-30 19:06:42,971 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2023-09-30 19:06:43,084 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/forecast?q=minneapolis%2Cus&units=imperial&appid=key HTTP/1.1" 401 108
+2023-09-30 19:06:43,085 - root - ERROR - 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/forecast?q=minneapolis%2Cus&units=imperial&appid=key
+Traceback (most recent call last):
+  File "c:\Users\KiaYa\Desktop\Lab_6_API\weather_forecast.py", line 50, in get_forecast_data
+    response.raise_for_status() # raise exception for 400 or 500 errors
+  File "C:\Users\KiaYa\Desktop\Lab_6_API\env\lib\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/forecast?q=minneapolis%2Cus&units=imperial&appid=key
+2023-09-30 19:06:43,086 - root - ERROR - {"cod":401, "message": "Invalid API key. Please see https://openweathermap.org/faq#error401 for more info."}
+Traceback (most recent call last):
+  File "c:\Users\KiaYa\Desktop\Lab_6_API\weather_forecast.py", line 50, in get_forecast_data
+    response.raise_for_status() # raise exception for 400 or 500 errors
+  File "C:\Users\KiaYa\Desktop\Lab_6_API\env\lib\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/forecast?q=minneapolis%2Cus&units=imperial&appid=key
+2023-09-30 19:06:54,991 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2023-09-30 19:06:55,107 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/forecast?q=minneapolis%2Cus&units=imperial&appid=key HTTP/1.1" 401 108
+2023-09-30 19:06:55,107 - root - ERROR - 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/forecast?q=minneapolis%2Cus&units=imperial&appid=key
+Traceback (most recent call last):
+  File "c:\Users\KiaYa\Desktop\Lab_6_API\weather_forecast.py", line 50, in get_forecast_data
+    response.raise_for_status() # raise exception for 400 or 500 errors
+  File "C:\Users\KiaYa\Desktop\Lab_6_API\env\lib\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/forecast?q=minneapolis%2Cus&units=imperial&appid=key
+2023-09-30 19:06:55,107 - root - ERROR - {"cod":401, "message": "Invalid API key. Please see https://openweathermap.org/faq#error401 for more info."}
+Traceback (most recent call last):
+  File "c:\Users\KiaYa\Desktop\Lab_6_API\weather_forecast.py", line 50, in get_forecast_data
+    response.raise_for_status() # raise exception for 400 or 500 errors
+  File "C:\Users\KiaYa\Desktop\Lab_6_API\env\lib\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/forecast?q=minneapolis%2Cus&units=imperial&appid=key
+2023-09-30 19:08:08,279 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2023-09-30 19:08:08,375 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/forecast?q=minneapolis%2Cus&units=imperial&appid=key HTTP/1.1" 401 108
+2023-09-30 19:08:08,375 - root - ERROR - 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/forecast?q=minneapolis%2Cus&units=imperial&appid=key
+Traceback (most recent call last):
+  File "c:\Users\KiaYa\Desktop\Lab_6_API\weather_forecast.py", line 50, in get_forecast_data
+    response.raise_for_status() # raise exception for 400 or 500 errors
+  File "C:\Users\KiaYa\Desktop\Lab_6_API\env\lib\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/forecast?q=minneapolis%2Cus&units=imperial&appid=key
+2023-09-30 19:08:08,386 - root - ERROR - {"cod":401, "message": "Invalid API key. Please see https://openweathermap.org/faq#error401 for more info."}
+Traceback (most recent call last):
+  File "c:\Users\KiaYa\Desktop\Lab_6_API\weather_forecast.py", line 50, in get_forecast_data
+    response.raise_for_status() # raise exception for 400 or 500 errors
+  File "C:\Users\KiaYa\Desktop\Lab_6_API\env\lib\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/forecast?q=minneapolis%2Cus&units=imperial&appid=key
+2023-09-30 19:08:45,993 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2023-09-30 19:08:46,099 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/forecast?q=sd%2Cus&units=imperial&appid=key HTTP/1.1" 401 108
+2023-09-30 19:08:46,099 - root - ERROR - 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/forecast?q=sd%2Cus&units=imperial&appid=key
+Traceback (most recent call last):
+  File "c:\Users\KiaYa\Desktop\Lab_6_API\weather.py", line 50, in get_forecast_data
+    response.raise_for_status() # raise exception for 400 or 500 errors
+  File "C:\Users\KiaYa\Desktop\Lab_6_API\env\lib\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/forecast?q=sd%2Cus&units=imperial&appid=key
+2023-09-30 19:08:46,099 - root - ERROR - {"cod":401, "message": "Invalid API key. Please see https://openweathermap.org/faq#error401 for more info."}
+Traceback (most recent call last):
+  File "c:\Users\KiaYa\Desktop\Lab_6_API\weather.py", line 50, in get_forecast_data
+    response.raise_for_status() # raise exception for 400 or 500 errors
+  File "C:\Users\KiaYa\Desktop\Lab_6_API\env\lib\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/forecast?q=sd%2Cus&units=imperial&appid=key
+2023-09-30 19:08:52,639 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2023-09-30 19:08:52,755 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/forecast?q=minneapolis%2Cus&units=imperial&appid=key HTTP/1.1" 401 108
+2023-09-30 19:08:52,755 - root - ERROR - 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/forecast?q=minneapolis%2Cus&units=imperial&appid=key
+Traceback (most recent call last):
+  File "c:\Users\KiaYa\Desktop\Lab_6_API\weather.py", line 50, in get_forecast_data
+    response.raise_for_status() # raise exception for 400 or 500 errors
+  File "C:\Users\KiaYa\Desktop\Lab_6_API\env\lib\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/forecast?q=minneapolis%2Cus&units=imperial&appid=key
+2023-09-30 19:08:52,755 - root - ERROR - {"cod":401, "message": "Invalid API key. Please see https://openweathermap.org/faq#error401 for more info."}
+Traceback (most recent call last):
+  File "c:\Users\KiaYa\Desktop\Lab_6_API\weather.py", line 50, in get_forecast_data
+    response.raise_for_status() # raise exception for 400 or 500 errors
+  File "C:\Users\KiaYa\Desktop\Lab_6_API\env\lib\site-packages\requests\models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: http://api.openweathermap.org/data/2.5/forecast?q=minneapolis%2Cus&units=imperial&appid=key
+2023-09-30 19:09:18,957 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2023-09-30 19:09:19,094 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/forecast?q=minneapolis%2Cus&units=imperial&appid=849d70047cb5d76e2ba6260b34fb66c2 HTTP/1.1" 200 16122
+2023-09-30 19:09:45,046 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): api.openweathermap.org:80
+2023-09-30 19:09:45,178 - urllib3.connectionpool - DEBUG - http://api.openweathermap.org:80 "GET /data/2.5/forecast?q=minneapolis%2Cus&units=imperial&appid=849d70047cb5d76e2ba6260b34fb66c2 HTTP/1.1" 200 16122
